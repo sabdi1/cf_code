@@ -11,7 +11,6 @@
 #  +------+    / /_/ / / /_/ /__/ /  / /_/ / / /_/  __/
 #   ||  ||    /_____/_/\__/\___/_/   \__,_/ /___/\___/
 #
-# Modification of ramp.py script written by Bitcraze
 # Simple script that connects to Crazyflie, and hovers utilizing gamepad controls
 # Written by: Sydrak Abdi
 # 01/4/2020
@@ -26,7 +25,7 @@ import cflib
 from cflib.crazyflie import Crazyflie
 
 from manual_motor_control import MotorControl
-from test_gamepad2 import Gamepad
+from read_gamepad import Gamepad
 
 if __name__ == '__main__':
     # Initialize the low-level drivers (don't list the debug drivers)
